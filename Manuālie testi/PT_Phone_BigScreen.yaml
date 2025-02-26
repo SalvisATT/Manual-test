@@ -1,0 +1,110 @@
+- Project name:;IT_Atbalsts;;;;;;;;: Moduel name:;Admin Settings;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: Reference document:;Reggression testing;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: Created by:;Salvis;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: Date of creation:;18.12.2024;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: Date of review:;19.12.2024;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: Browser :;Opera;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: Device:;redmi note 12 pro;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: Screen Width:;391 - 440 px;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: TEST CASE ID;TEST CASE SCENARIO;TEST CASE;PRE
+    CONDITIONS;TEST STEPS;TESTS DATA;EXPECTED RESULT;POST CONDITIONS;ACTUAL RESULT;STATUS
+    (PASS/FAIL)
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_001;Admin wants to go back
+    to previous page;back to previous page;1.Admin must be created;1.presses Back;1.Back;Admin
+    is redirected to the previous page;page reloads and previous page is displayed;page
+    reloads and page is  displayed;pass
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_003;Admin wants to update
+    their Name/LastName/Username with empty values;empty field update;1.Admin must
+    be created;1.presses submit;;error message is displayed;error message is displayed
+    and that says please fill in the fields with value;error message is displayed;pass
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_006;Admin chooses the password
+    setting;password settings;1.Admin must be created;1.presses setting button;;password
+    field  settings are showed;page shows password fields for update;password update
+    field is showed;pass
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_007;Admin wants to  update
+    their password;password updated;1.Admin must be created;1.fills in the password  fields;valid
+    old password;password  is updated;page is reloaded and message is showed that
+    it was succsesfull;password is updated and message is displayed that it was succsesfull;pass
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit;valid
+    password;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;valid Confirm
+    password;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_008;Admin tries to update
+    their password with old password;old password is updated;1.Admin must be created;1.
+    fills in the password fields;valid old password;message is showed;message is displayed  that
+    new password cannot be old password;password  is updated and message is showed;fail
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit;old
+    as new password;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;valid Confirm
+    password;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_009;Admin tries to update
+    their password with 4 character long name;4 character password  updatte;1.Admin
+    must be created;1.fills in the password  fields;valid old password;error message
+    is showed;message is displayed that password field must be atleast 8 characters
+    long ;error message is showed ;pass
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit;4
+    character long new password ;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;valid confirm
+    password ;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_010;Admin tries to update
+    their password with 8 character long name ;8 characters  password update;1.Admin
+    must be created;1.fills in the field ;valid old password;password is updated;message
+    is displayed that the password was updated and after page rekoads it displays
+    password change option;message is updated;pass
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit
+    ;8 character  long new password;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;valid confirm  password;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: PhoneP_AdminSettings_011;Admin tries to update
+    password with numbers or symbols;number/symbol password update;1.Admin must be
+    created;1.fills in the field ;valid  old password;error message is displayed;message
+    is displayed that tit was succsesfully updated;message is updated;fail
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;2.Admin must be logged in;2.presses submit
+    ;number/symbol new password;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;3.Admin must be in settings page;;valid confirm
+    password ;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
+- Project name:;IT_Atbalsts;;;;;;;;: ;;;;;;;;;
