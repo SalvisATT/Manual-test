@@ -1,0 +1,1070 @@
+[
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Moduel name:;User settings;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Reference document:;Reggression testing;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Created by:;Salvis;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Date of creation:;12c.12.2024;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Date of review:;12.12.2024;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Browser :;Opera;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Device:;Aspire A315-33;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"TEST CASE ID;TEST CASE SCENARIO;TEST CASE;PRE CONDITIONS;TEST STEPS;TESTS DATA;EXPECTED RESULT;POST CONDITIONS;ACTUAL RESULT;STATUS (PASS\/FAIL)"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_001;user wants to cahnge thei r name and user name;change username;1.user must have an active account;1.user changes the values of the field;1.Valid name;user name \/ lastname \/ username is updated ;message is displayed that  it was succsseful and values has changed after page is reloaded;page reloadss and values are updated.;pass"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;2. presses submit;2.Valid Lastname;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;3.Valid username;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_002;user wants to update  Name \/ LastName \/ username with 3 character or less;update username with 3 character long ;1.user must have an active account;1.changes fields values 3 character long values;1.Invalid name;error message is showed ;message is showed that the character must be atlest 4 characters long ;message is displayed near the field that has the error;pass"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;2.presses submit;2.Invalid Lastname;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;3.Invalid username;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_003;user wants to update  Name \/ LastName \/ username with 5 + character or less;update fields with 5+ characterrs;1.user must have an active account;1. changes fields values 5+ or longer character;1.valid name;field values are updated ;message is displayed that the values  are succsesfully updated;message is displayed and field values are updated;pass"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;2.presses submit;2.valid Lastname;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;3.Valid Username;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_004;user wants to visit setting pages password updatee;password option;1.user must have an active account;1. presses the password option;;the password update fields are shown;the password fields is displayed and showeed ;the password option is showed ;pass"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_005;user wants to update their password field ;password update;1.user must have an active account;1.fills in the field;1. valid password field;password is updated;message is displayed that it was succsesfull and assword is updated;password is updated and message is showed ;pass"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;2.presses submit;2. valid oldpassword;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;3.must choose the password option;;3.valid confirmation password;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;2.presses submit;2.invalid password;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;3.must choose the password option;;3.invalid confirm password;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_007;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_008;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_009;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_010;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_011;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_012;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_013;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_014;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_015;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_016;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_017;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_018;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_019;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_020;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_021;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_022;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_023;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_024;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_025;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_026;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_027;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_028;;;1.user must have an active account;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;2.user must be in settings page;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_029;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_030;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_031;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_032;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_033;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_034;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_035;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_036;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_037;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_038;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_039;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_040;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_041;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_042;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_043;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_044;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_045;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_046;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_047;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_048;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_049;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_050;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_051;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_052;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_053;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_054;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_055;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_056;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_057;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":"Laptop_UserSettings_058;;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    },
+    {
+        "Project name:;IT_Atbalsts;;;;;;;;":";;;;;;;;;"
+    }
+]
