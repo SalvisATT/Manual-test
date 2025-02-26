@@ -1,0 +1,77 @@
+Project name:;IT_Atbalsts;;;;;;;;
+Moduel name:;Admin Settings;;;;;;;;
+Reference document:;Reggression testing;;;;;;;;
+Created by:;Salvis;;;;;;;;
+Date of creation:;18.12.2024;;;;;;;;
+Date of review:;19.12.2024;;;;;;;;
+Browser :;Opera;;;;;;;;
+Device:;redmi note 12 pro;;;;;;;;
+Screen Width:;391 - 440 px;;;;;;;;
+;;;;;;;;;
+TEST CASE ID;TEST CASE SCENARIO;TEST CASE;PRE CONDITIONS;TEST STEPS;TESTS DATA;EXPECTED RESULT;POST CONDITIONS;ACTUAL RESULT;STATUS (PASS/FAIL)
+PhoneP_AdminSettings_001;Admin wants to go back to previous page;back to previous page;1.Admin must be created;1.presses Back;1.Back;Admin is redirected to the previous page;page reloads and previous page is displayed;page reloads and page is  displayed;pass
+;;;2.Admin must be logged in;;;;;;
+;;;3.Admin must be in settings page;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_002;Admin wants to update their Name/LastName/Username;Namle/LastName/UserName update;1.Admin must be created;1.change the fields values ;Valid Name/LastName/UserName;Name fields are updated and message is showed ;fields are updated with the values and the users name/lastname/username are updated;page reloads , message that it was updated shows, and new last name ,name and  username is showed;pass
+;;;2.Admin must be logged in;2.presses submit;;;;;
+;;;3.Admin must be in settings page;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_003;Admin wants to update their Name/LastName/Username with empty values;empty field update;1.Admin must be created;1.presses submit;;error message is displayed;error message is displayed and that says please fill in the fields with value;error message is displayed;pass
+;;;2.Admin must be logged in;;;;;;
+;;;3.Admin must be in settings page;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_004;Admin wants to update their values with 3 character ;3 character name field updates;1.Admin must be created;1.fills in the field;3 character name/lastname /username;error message is  displayed;error message is displayed and that says you must have atleast 4 character for name, you have 3;error message is displayed;pass
+;;;2.Admin must be logged in;2.presses submit;;;;;
+;;;3.Admin must be in settings page;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_005;Admin wants to update their values with 5 characters;5 character name field updates;1.Admin must be created;1.fill in the fields;5 character name/lastname/username;fields are updated succsesfully;page reloads, message is showed that it was succsesfull ;values are updated and displayed, message  is showed that it was succsesfull;pass
+;;;2.Admin must be logged in;2.presses submit;;;;;
+;;;3.Admin must be in settings page;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_006;Admin chooses the password setting;password settings;1.Admin must be created;1.presses setting button;;password field  settings are showed;page shows password fields for update;password update field is showed;pass
+;;;2.Admin must be logged in;;;;;;
+;;;3.Admin must be in settings page;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_007;Admin wants to  update their password;password updated;1.Admin must be created;1.fills in the password  fields;valid old password;password  is updated;page is reloaded and message is showed that it was succsesfull;password is updated and message is displayed that it was succsesfull;pass
+;;;2.Admin must be logged in;2.presses submit;valid password;;;;
+;;;3.Admin must be in settings page;;valid Confirm password;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_008;Admin tries to update their password with old password;old password is updated;1.Admin must be created;1. fills in the password fields;valid old password;message is showed;message is displayed  that new password cannot be old password;password  is updated and message is showed;fail
+;;;2.Admin must be logged in;2.presses submit;old as new password;;;;
+;;;3.Admin must be in settings page;;valid Confirm password;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_009;Admin tries to update their password with 4 character long name;4 character password  updatte;1.Admin must be created;1.fills in the password  fields;valid old password;error message is showed;message is displayed that password field must be atleast 8 characters long ;error message is showed ;pass
+;;;2.Admin must be logged in;2.presses submit;4 character long new password ;;;;
+;;;3.Admin must be in settings page;;valid confirm password ;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_010;Admin tries to update their password with 8 character long name ;8 characters  password update;1.Admin must be created;1.fills in the field ;valid old password;password is updated;message is displayed that the password was updated and after page rekoads it displays password change option;message is updated;pass
+;;;2.Admin must be logged in;2.presses submit ;8 character  long new password;;;;
+;;;3.Admin must be in settings page;;valid confirm  password;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+PhoneP_AdminSettings_011;Admin tries to update password with numbers or symbols;number/symbol password update;1.Admin must be created;1.fills in the field ;valid  old password;error message is displayed;message is displayed that tit was succsesfully updated;message is updated;fail
+;;;2.Admin must be logged in;2.presses submit ;number/symbol new password;;;;
+;;;3.Admin must be in settings page;;valid confirm password ;;;;
+;;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
